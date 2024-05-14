@@ -1,0 +1,131 @@
+body{ /*직접적으로 스타일 주는거*/
+    display: contents;
+}
+
+.navbar{
+    float: right;
+    margin: 20px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.button-area{
+    padding-top: 18px;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.main{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.input-area{
+    margin-top: 20px;
+}
+
+.input-box{
+    width: 551px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 20px;
+    padding-inline-start: 46px;
+    padding-inline-end: 88px;
+}
+
+/* .input-box:focus{
+    width: 551px;
+    height: 400px;
+} */ 
+
+.search-icon{
+    color: #9aa0a6;
+    position: relative;
+    left:40px;
+}
+
+.microphone-icon{
+    position: relative;
+    right:80px;
+}
+
+.camera-icon{
+    position: relative;
+    right: 60px;
+}
+
+.button-style{
+    height: 40px;
+    background-color: #f8f9fa;
+    border: 1px solid#f8f9fa;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+.button-style:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid#dadce0;
+    color: #202124;
+}
+
+.language-area {
+    margin-top: 18px;
+  }
+
+.language {
+    text-decoration: none;
+    padding: 0 3px;
+    color: #1a0dab;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.footer-box{
+    padding: 15px 30px;
+    border-bottom: 1px solid#dedce0;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+.footer-box2{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgb(0,0,0,.54);
+}
+
+.footer-text1{
+    text-decoration: none;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+.footer-text1:hover{
+    text-decoration: underline;
+}
+
+.footer-text2{
+    float: right;
+    text-decoration: none;
+    font-size: 15px;
+    color: #9aa0a6;
+    padding-right: 15px;
+}
+.footer-text2:hover{
+    text-decoration: underline;
+}
+
