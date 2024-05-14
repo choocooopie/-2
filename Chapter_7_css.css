@@ -1,0 +1,65 @@
+.main_margin {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 45px;
+}
+
+.button_크기 {
+    width: 150px;
+}
+
+.nav_font {
+    font-weight: 700;
+    font-size: 13px;
+    color: black;
+}
+
+.nav_font:hover {
+    color: gray;
+}
+
+.card_margin {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.first_line {
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:48rem) {
+    .first_line {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+}
+
+@media screen and (min-width:1000rem) {
+    .carousel {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .slide {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
