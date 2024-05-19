@@ -1,0 +1,49 @@
+.bg-body {
+    height: 36;
+    background-color: #f5f5f5;
+}
+
+.nav_font {
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+}
+
+.nav_font:hover {
+    color: gray;
+}
+
+.navbar-logo {
+    width: 23.94;
+    height: 22.42;
+}
+
+.navbar-font {
+    font-size: 12px;
+}
+
+.main_margin {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.main_margin2 {
+    font-size: 15;
+    color: gray;
+}
+
+.main_margin3 {
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+
+.main_margin4 {
+    margin-bottom: 20px;
+}
+
+.button_크기 {
+    width: 150px;
+    border-radius: 30px;
+}
